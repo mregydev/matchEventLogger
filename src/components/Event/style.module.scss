@@ -1,0 +1,99 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.addHeader {
+  background: $mainColor;
+  color: $sectionHeaderForeColor;
+  text-align: center;
+  padding: 10px;
+  font-size: $sectionHeaderFontSize;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.sectionContent {
+  @include section-body;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.MenuItem {
+  font-size: 1.1em;
+}
+
+.FormControl {
+  margin-top: 2px !important;
+}
+
+.addButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+@media only screen and (min-width: 800px) {
+  .viewEventsContainer {
+    padding: 0px 20px 0px 20px;
+  }
+
+  .sectionContent {
+    margin: 10px;
+  }
+}
+
+.addButton {
+  width: 80%;
+  height: 50px;
+  font-size: $buttonFontSize !important;
+  background-color: $secondColor !important;
+}
+
+.MuiSelect-outlined {
+  border: 1px red !important;
+}
+
+.addEventControls {
+  padding: 20px;
+}
+
+.NoEventsFound {
+  padding: 10px;
+  font-weight: bold;
+  font-size: $labelFontSize;
+  margin: auto;
+  font-family: $fontFamily;
+}
+
+.eventsList {
+  min-height: 12vh;
+  max-height: 40vh;
+  overflow: auto;
+  padding: 10px;
+}
+
+.eventCard {
+  @include hover-scale;
+  box-shadow: 0px 0px 2px #000000;
+  width: 100% !important;
+  margin: 10px;
+}
+
+.fieldName {
+  font-weight: bold;
+  margin-right: 3px;
+}
+.cardHeader {
+  background: $mainColor;
+  color: white;
+  font-size: 2px !important;
+  font-weight: bold !important;
+}
+
+.fieldRow {
+  margin-bottom: 10px;
+}
+
+.avatar {
+  background: $secondColor !important;
+}

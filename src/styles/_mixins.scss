@@ -1,0 +1,21 @@
+@mixin hover-scale {
+  &:hover {
+    box-shadow: 0px 0px 20px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+  }
+}
+
+@mixin section-body {
+  & {
+    background-color: $sectionBackgroundColor;
+    box-shadow: 0px 0px 2px #000000;
+  }
+}

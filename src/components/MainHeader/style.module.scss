@@ -1,0 +1,26 @@
+@import "../../styles/variables";
+
+.appHeader {
+  background: $mainColor;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  height: 8vh;
+  font-size: $headerFontSize;
+  font-family: sans-serif;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+}
+
+.headerLogo {
+  margin-right: 10px;
+}
+
+.githubLink {
+  color: white;
+  font-weight: bold;
+  float: right;
+}
