@@ -6,8 +6,7 @@ import MainHeader from "../../src/components/MainHeader";
 describe("<MainHeader /> test cases", () => {
   test("renders", () => {
     const wrapper = shallow(<MainHeader />);
-    const component = wrapper.dive();
-
-    expect(toJson(component)).toMatchSnapshot();
+    
+    expect(toJson(wrapper)).toMatchSnapshot();
   });
 });
