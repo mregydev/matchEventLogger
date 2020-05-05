@@ -1,4 +1,5 @@
+- This is a match event logger system  and you can view the syste on https://mregydev.github.io/matchEventLogger
 
-Note : 
+- This is a demonstration not complete system just to show how I write code in react so tests are complete and also code cause this is a deonstration
 
-- I put into consideration that the match streaming service is coming from external provider like youtube for example
+- Your feedback please would be a great addition 
